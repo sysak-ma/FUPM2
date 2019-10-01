@@ -1,0 +1,58 @@
+word
+word
+word
+word
+word
+word
+word
+word
+word
+word
+syscall r3 102
+lc r0 10
+syscall r0 105
+ret 0
+syscall r3 102
+lc r0 10
+syscall r0 105
+syscall r4 102
+syscall r0 105
+ret 0
+lc r0 0
+syscall r0 0
+lc r3 1024
+shli r3 20
+subi r3 1
+lc r4 1
+ori r3 65535
+calli 10
+ori r3 32767
+calli 10
+ori r3 8191
+calli 10
+ori r3 4095
+calli 10
+andi r3 -493681
+calli 10
+ori r3 39823
+ori r4 297121
+and r3 r40
+calli 10
+or r3 r40
+calli 10
+ori r3 37
+andi r3 255
+calli 10
+xori r3 127
+calli 10
+xori r3 17
+xori r4 876
+xor r3 r40
+calli 10
+xor r3 r40
+calli 10
+xor r3 r40
+calli 10
+and r3 r40
+calli 10
+calli 20
